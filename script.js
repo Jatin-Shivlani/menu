@@ -1,0 +1,19 @@
+$('.all').click(()=>{
+    $('.menu-item').removeClass('hide')
+})
+$('.breakfast').click(()=>{
+    $('.menu-item').addClass('hide')
+    $('.break').removeClass('hide')
+})
+$('.lunch').click(()=>{
+    $('.menu-item').addClass('hide')
+     $('.lu').removeClass('hide')
+})
+$('.shakes').click(()=>{
+    $('.menu-item').addClass('hide')
+     $('.shk').removeClass('hide')
+})
+$('.dinner').click(()=>{
+    $('.menu-item').addClass('hide')
+     $('.din').removeClass('hide')
+})
