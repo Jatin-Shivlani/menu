@@ -83,7 +83,7 @@ button:hover{
     color: #e1ad01;
 }
 .hide{
-display: none;
+display: none !important;
 }
 @media (max-width:1200px) {
     .container{
