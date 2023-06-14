@@ -1,0 +1,102 @@
+h1{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+.btn{
+    display:flex ;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px auto;
+}
+.menu-item{
+   
+height: auto;
+    width:auto;
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    border-radius: 10px;
+   
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    column-gap: 40px;
+    row-gap: 10px;
+}
+img{
+    height: 150px;
+    width: 225px;
+    object-fit: cover;
+border-radius: 10px;
+border: 4px solid rgb(235, 200, 21);
+margin: auto 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid grey;
+    letter-spacing: 3px;
+    
+}
+.price{
+    color:  rgb(186, 158, 18);
+}
+p{
+    font-family: 'Dosis', sans-serif;
+    font-weight:700;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 20px;
+}
+h4{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+button{
+    background-color: white;
+    color: rgb(186, 158, 18);
+    padding: 10px;
+    width: 100px;
+    border: none;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+    font-weight:bolder ;
+    cursor: pointer;
+}
+button:active{
+    box-shadow: 0px 1px 1px grey;
+}
+button:hover{
+    background-color: grey;
+    color: #e1ad01;
+}
+.hide{
+display: none;
+}
+@media (max-width:1200px) {
+    .container{
+        grid-template-columns: 1fr;
+        width: 60vw;
+    }
+}
+@media (max-width:760px) {
+    .menu-item{
+        display: block;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+    }
+}
